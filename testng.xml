@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1">
+	<test name="Contactme">
+		<classes>
+			<!--			<class name="tests.qa.TC01_ContactMe_QA"/>-->
+			<class name="utility.utils.test.TestDriver"></class>
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="utility.utils.test.TestListener"/>
+	</listeners>
+</suite>
+
